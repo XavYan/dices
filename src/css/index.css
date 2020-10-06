@@ -1,0 +1,38 @@
+html {
+    margin: 0;
+}
+
+.body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+
+    display: flex;
+    flex-direction: column;
+
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.dice {
+    border: 1px solid black;
+    border-radius: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 80px;
+
+    width: 130px;
+    height: 130px;
+}
+
+.container button {
+    margin-top: 10px;
+}
