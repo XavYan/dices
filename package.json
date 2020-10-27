@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel --port 3000 src/index.html",
-    "build": "parcel build src/index.html --public-url /dices -d build",
+    "build": "stylelint src/css/* && eslint src/js/* && parcel build src/index.html --public-url /dices -d build",
     "deploy": "gh-pages -d build",
     "clear": "rm -rf .cache .vscode dist",
     "test": "echo \"Error: no test specified\" && exit 1"
